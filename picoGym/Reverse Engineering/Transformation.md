@@ -8,9 +8,7 @@ Points: 20
 Competition: picoCTF 2021
 
 # Description
-I wonder what this really is... enc 
-
-`''.join([chr((ord(flag[i]) << 8) + ord(flag[i + 1])) for i in range(0, len(flag), 2)])`
+I wonder what this really is... enc `''.join([chr((ord(flag[i]) << 8) + ord(flag[i + 1])) for i in range(0, len(flag), 2)])`
 
 # Solution
 This challenge provides one file: `enc`
